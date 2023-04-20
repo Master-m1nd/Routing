@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Lora-Regular', sans-serif;
+    src: url('/public/Lora-Regular.woff2');
+}
+
+* {
+    font-family: 'Lora-Regular';
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+h1 {
+    color: #495057;
+    position: relative;
+}
+
+.categoriesWrap {
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.categoryActive {
+    display: flex;
+    position: relative;
+    color: #D4A373;
+    border: none;
+    background-color: white;
+}
+
+.category {
+    border: none;
+    background: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.cardWrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+}
+
+.cardImg {
+    width: 310px;
+    height: 280px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.date {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #6C757D;
+}
+
+.title {
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #495057;
+    width: 270px;
+    height: auto;
+}
+
+.description {
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6C757D;
+    width: 270px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.authorCard {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.authorInfo {
+    padding-left: 17px;
+}
+
+.authorName {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color:#343A40;
+}
+
+.authorPosition {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #6C757D;
+}
+
+.authorAvatar {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgd-posts {
+    position: relative;
+    width: 1400px;
+    height: 600px;
+}
+
+.posts-title {
+    position: absolute;
+    color: white;
+    padding-bottom: 150px;
+    width: 530px;
+    height: auto;
+    text-align: center;
+}
+
+.posts-description {
+    position: absolute;
+    color: #E5E5E5;
+    padding-top: 50px;
+    width: 420px;
+    height: auto;
+    text-align: center;
+}
+
+.by-author {
+    position: absolute;
+    color: white;
+    width: 133px;
+    padding-top: 180px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.article {
+    text-align: center;
+    width: 860px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+
+.aside-block {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.date {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.line {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.reading-time {
+    padding-top: 17px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.article {
+    color:#495057;
+}
+
+.underLine {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.authorPost {
+    position: absolute;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
+    height: 150px;
+    padding-left: 250px;
+}
+
+.authorAvatarPost {
+    padding-left: 250px;
+    position: relative;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.authorInfoPost {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.authorPositionPost {
+   color: gray; 
+   padding-top: 5px;
+}
